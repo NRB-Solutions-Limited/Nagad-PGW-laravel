@@ -30,7 +30,7 @@ class NagadPaymentGatewaySerivceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/config/nagad_payment_gateway.php' => config_path('nagad_payment_gateway.php'),
-            __DIR__.'/resources/views' => resource_path('views/nagad_payment_gateway'),
+            __DIR__.'/resources/views' => resource_path('views/vendor/nagad_payment_gateway'),
         ]);
     }
 }

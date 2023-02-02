@@ -37,6 +37,8 @@ NAGAD_LOGO=// Your logo url
 //  Supported: "json", "html",
 
 "response_type"   => "html" 
+// You need to publish this package 
+php artisan vendor:publish --provider="App\Providers\NagadPaymentGatewaySerivceProvider"
 
 ```
 ### Instructions for usegs  ###
