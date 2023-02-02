@@ -44,7 +44,8 @@ php artisan vendor:publish --provider="App\Providers\NagadPaymentGatewaySerivceP
 ### Instructions for usegs  ###
 ```php
 Route: 
-http://{Your Host address}/nagad/nagad/{reference_id}/{amount}
+http://{Your Host address}/nagad/{reference_id}/{amount}
+// Example:
 http://127.0.0.1:8000/nagad/pid_234234234/3000
 ```
 
