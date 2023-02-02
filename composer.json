@@ -1,0 +1,18 @@
+{
+    "name": "nrbsolution/nagad_payment_gateway",
+    "description": "Laravel nagad payment package",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nrbsolution\\nagad_payment_gateway\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nrbsolution\\nagad_payment_gateway\\NagadPaymentGatewaySerivceProvider"
+            ]
+        }
+    }
+}
